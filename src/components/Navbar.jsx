@@ -21,6 +21,9 @@ function Navbar() {
           <a className="nav-link" href="#projects">
   Projects
 </a>
+<a className="nav-link" href="#contact">
+  Contact
+</a>
         </div>
       </nav>
     </header>
