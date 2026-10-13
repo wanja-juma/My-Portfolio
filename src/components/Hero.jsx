@@ -17,6 +17,11 @@ function Hero() {
           Bringing an operations background and a practical approach to
           solving problems through code.
         </p>
+        <div className="hero-actions">
+  <a className="project-button project-button-primary" href="#projects">
+    View Projects
+  </a>
+</div>
       </div>
 
       <div className="hero-card">

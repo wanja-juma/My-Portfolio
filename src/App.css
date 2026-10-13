@@ -264,6 +264,150 @@
   border-radius: 999px;
   font-size: 0.9rem;
 }
+.projects-section {
+  padding: 5rem 0;
+  border-top: 1px solid #243247;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #172338;
+  border: 1px solid #334155;
+  border-radius: 20px;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid #334155;
+}
+
+.project-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #172338, #134e4a);
+  border-bottom: 1px solid #334155;
+}
+
+.project-placeholder span {
+  color: #5eead4;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.project-type {
+  margin: 0 0 0.75rem;
+  color: #5eead4;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.project-content h3 {
+  margin: 0 0 1rem;
+  color: #f8fafc;
+  font-size: 1.5rem;
+}
+
+.project-description,
+.project-contribution p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.project-contribution {
+  margin-top: 1.5rem;
+}
+
+.project-contribution h4 {
+  margin: 0 0 0.5rem;
+  color: #f8fafc;
+  font-size: 1rem;
+}
+
+.project-technologies {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.project-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.1rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.project-button-primary {
+  color: #0f172a;
+  background-color: #5eead4;
+}
+
+.project-button-primary:hover {
+  background-color: #99f6e4;
+}
+
+.project-button-secondary {
+  color: #e2e8f0;
+  background-color: transparent;
+  border-color: #475569;
+}
+
+.project-button-secondary:hover {
+  color: #5eead4;
+  border-color: #5eead4;
+}
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 3.5rem 0;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-content {
+    padding: 1.5rem;
+  }
+}
 
 @media (max-width: 900px) {
   .skills-grid {

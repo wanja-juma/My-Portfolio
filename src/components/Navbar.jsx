@@ -18,6 +18,9 @@ function Navbar() {
           <a className="nav-link" href="#skills">
             Skills
           </a>
+          <a className="nav-link" href="#projects">
+  Projects
+</a>
         </div>
       </nav>
     </header>
