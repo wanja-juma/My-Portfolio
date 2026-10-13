@@ -3,12 +3,22 @@ function Navbar() {
     <header className="site-header">
       <nav className="navbar" aria-label="Main navigation">
         <a className="logo" href="#home">
-          Wanja<span>.</span>
+          Ruth<span>.</span>
         </a>
 
-        <a className="nav-link" href="#home">
-          Home
-        </a>
+        <div className="nav-links">
+          <a className="nav-link" href="#home">
+            Home
+          </a>
+
+          <a className="nav-link" href="#about">
+            About
+          </a>
+
+          <a className="nav-link" href="#skills">
+            Skills
+          </a>
+        </div>
       </nav>
     </header>
   );

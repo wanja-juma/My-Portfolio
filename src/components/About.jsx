@@ -17,6 +17,13 @@ function About() {
             Nairobi. I enjoy turning everyday
             problems into useful, easy-to-use web applications.
           </p>
+          <p>
+            Before transitioning into software development, I was self-employed,
+            running my own retail shop selling shoes, clothing, and cosmetics.
+            Managing the business helped me develop customer service, inventory
+            management, organisation, and problem-solving skills that I now bring
+            to my development work.
+            </p>
 
           <p>
             I build frontend interfaces with JavaScript and React, and
@@ -25,13 +32,7 @@ function About() {
             interfaces to APIs, working with databases, and collaborating
             using Git and GitHub.
           </p>
-          <p>
-            Before transitioning into software development, I was self-employed,
-            running my own retail shop selling shoes, clothing, and cosmetics.
-            Managing the business helped me develop customer service, inventory
-            management, organisation, and problem-solving skills that I now bring
-            to my development work.
-            </p>
+          
 
           <p>
             I’m looking for opportunities to contribute, learn from
