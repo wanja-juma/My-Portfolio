@@ -25,6 +25,14 @@ function Hero() {
   <a className="project-button project-button-secondary" href="#contact">
     Contact Me
   </a>
+
+  <a
+    className="project-button project-button-secondary"
+    href="/wanja-juma-resume.pdf"
+    download="Wanja-Juma-Resume.pdf"
+  >
+    Download Résumé
+  </a>
 </div>
       </div>
 

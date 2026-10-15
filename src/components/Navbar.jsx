@@ -3,7 +3,7 @@ function Navbar() {
     <header className="site-header">
       <nav className="navbar" aria-label="Main navigation">
         <a className="logo" href="#home">
-          Ruth<span>.</span>
+          Wanja<span>.</span>
         </a>
 
         <div className="nav-links">
